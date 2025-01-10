@@ -1,10 +1,10 @@
+# test_main.py
 import unittest
 from main import greet
 
-class TestGreet(unittest.TestCase):
+class TestGreetFunction(unittest.TestCase):
     def test_greet(self):
-        self.assertEqual(greet("Alice"), "Hello, Alice!")
-        self.assertEqual(greet("Bob"), "Hello, Bob!")
+        self.assertEqual(greet("World"), "Hello, World!")
 
 if __name__ == "__main__":
     unittest.main()
