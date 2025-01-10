@@ -8,3 +8,7 @@ class TestGreetFunction(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class TestFarewell(unittest.TestCase):
+    def test_farewell(self):
+        self.assertEqual(farewell("Alice"), "Goodbye, Alice!")
